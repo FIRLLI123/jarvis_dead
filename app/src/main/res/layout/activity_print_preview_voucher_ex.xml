@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Ubah Tanggal dan Outlet jika ingin mencetak penjualan yg berbeda"
+        android:layout_marginLeft="5dp"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/merah"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Tanggal     :"
+            android:textColor="@color/black"
+            android:layout_marginLeft="7dp"
+            />
+
+        <TextView
+            android:id="@+id/tanggalinputperdana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19/10/2021"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone">
+        <EditText
+            android:id="@+id/idoutletinputperdana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24000"
+            android:inputType="number"
+            android:textSize="12dp"
+            android:ems="7"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cari ID"
+            android:id="@+id/cariid"/>
+
+        <TextView
+            android:id="@+id/namaoutletinputperdana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="family cell"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/namasalesinputperdana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nama sales"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WWW.REKAMITRAYASA.COM"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+
+            android:textColor="@color/black"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+
+
+        <LinearLayout
+            android:id="@+id/perdana"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@drawable/kota_nav2y">
+
+
+
+
+
+            <TextView
+                android:id="@+id/t_perdana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INCLUDE PPN"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"/>
+
+            <View
+                android:id="@+id/perdana_v"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/voucher"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@drawable/kotak_transparan_putih2">
+
+
+
+            <TextView
+                android:id="@+id/t_voucher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NON PPN"
+                android:textColor="@color/navy"
+                android:layout_marginTop="3dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <View
+                android:id="@+id/voucher_v"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:id="@+id/ppn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="REKA MITRAYASA KOMUNIKATAMA"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/rekamitra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="https://rekamitrayasa.com/reka/images/"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Jl.Mampang Prapatan Raya No.98 C"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Jakarta Selatan 12790 Indonesia"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NPWP. 01.764.602.7-014.000"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tel.(62-21)79191965"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Fax. (62-21)7902523"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="STRUK"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:layout_gravity="top"
+                />
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/namalistperdana"
+                    android:layout_width="130dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="PRODUK"
+                    android:layout_marginLeft="13dp"
+                    android:gravity="left"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/qtylistperdana"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="QTY"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="1dp"
+                    android:gravity="left"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/hargalistperdana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HARGA"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="left"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+
+
+            <view
+                android:id="@+id/listBayar"
+                class="android.support.v7.app.AlertController$RecycleListView"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="top"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:id="@+id/testTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="TOTAL :"
+                android:textColor="@color/merah"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="TRANSFER :   "
+                    android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/tr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="0"
+                android:textStyle="bold"/>
+            </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="CASH :   "
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/cs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="0"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TERIMA KASIH"
+                android:layout_marginBottom="5dp"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/testransfer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="12dp"
+        android:textColorLink="@color/black"
+        android:text="TES"
+        android:textColor="@color/white"
+        android:background="@drawable/custom4abu"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/testprint"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/print31"
+        android:paddingTop="5dp"
+        android:text="PRINT"
+        android:textSize="8dp"
+        android:textColor="@color/white"
+        android:background="@drawable/print"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+
+        <Button
+            android:id="@+id/testprintnonpjp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/print31"
+            android:paddingTop="5dp"
+            android:text="PRINT"
+            android:textSize="8dp"
+            android:textColor="@color/white"
+            android:background="@drawable/print"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:layout_gravity="top"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="10dp"
+            android:gravity="left">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*NOTE"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wajib Melampirkan Bukti"
+                android:textSize="12dp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/noimage"
+            app:civ_border_color="#DFBBC4"
+
+            app:civ_border_width="2dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+
+
+
+            <Button
+                android:id="@+id/foto"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="mulai foto"
+                android:textColor="@color/white"
+                android:layout_gravity="left"
+                android:textSize="10dp"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/choose"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/fotobukti"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="12dp"
+        android:textColorLink="@color/black"
+        android:text="Upload bukti outlet belanja"
+        android:textColor="@color/white"
+        android:background="@drawable/custom4abu"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/kevoucher"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="12dp"
+        android:textColorLink="@color/black"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:background="@color/abu"
+        android:enabled="false"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="12dp"
+        android:textColorLink="@color/black"
+        android:text="NEXT VOUCHER"
+        android:textColor="@color/black"
+        android:background="@color/abu"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+
+        />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

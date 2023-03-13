@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="8dp"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+            android:id="@+id/namaitemlistriwayatstok2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Nama Item"
+            android:textColor="@color/merah"
+            android:layout_marginLeft="1dp"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/jamlistriwayatstok2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="08:08:08 PM"
+        android:textColor="@color/black"
+        android:layout_marginLeft="1dp"
+        android:gravity="right"
+        android:textStyle="bold"/>
+</LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stok Sebelumnya : "
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/qtysekaranglistriwayatstok2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="100000"
+                android:textColor="@color/birumuda"
+                android:layout_marginLeft="1dp"
+                android:gravity="left" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengambilan Barang : "
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/qtylistriwayatstok2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="100000"
+                android:textColor="@color/merah"
+                android:layout_marginLeft="1dp"
+                android:gravity="left" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stok Hari Ini : "
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/qtysesudahlistriwayatstok2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="100000"
+                android:textColor="@color/hijau"
+                android:layout_marginLeft="1dp"
+                android:gravity="left" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Admin : "
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/namauserlistriwayatstok2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oka Kammarulsyah"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:gravity="left" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keterangan : "
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/keteranganlistriwayatstok2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PENGAMBILAN BARANG"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:gravity="left" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

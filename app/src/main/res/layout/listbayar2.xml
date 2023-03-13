@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="14dp"
+        android:text="BABA CELL"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/namaoutletlistbayar2"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="14dp"
+        android:text="240000123"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/idoutletlistbayar2"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:visibility="gone"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            >
+
+
+
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:text="Item"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/merahmuda"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QTY"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+
+                android:background="@color/merahmuda"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+            <TextView
+                android:id="@+id/namaitemlistbayar2"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:text="Perdana 35 GB"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/qtylistbayar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp"
+            >
+
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="TANGGAL TEMPO"
+                android:textStyle="bold|italic"
+                android:textSize="15dp"
+                android:textColor="@color/merah"
+                />
+
+            <TextView
+
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textStyle="bold|italic"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tanggaltempolistbayar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="90000000"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                />
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/masihtempo"
+                android:layout_marginLeft="9dp"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp"
+            >
+
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="TERBAYAR TANGGAL"
+                android:textStyle="bold|italic"
+                android:textSize="15dp"
+                android:textColor="@color/hijau"
+                />
+
+            <TextView
+
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textStyle="bold|italic"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tanggalsekaranglistbayar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="90000000"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                />
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ceklist"
+                android:layout_marginLeft="9dp"/>
+        </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

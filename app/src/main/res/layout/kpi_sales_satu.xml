@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TesCoding"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="KPI SALES FORCE"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <TextView
+        android:id="@+id/namasales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="namasales"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/namabulan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="namabulan"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Bulan :"
+            android:textSize="15dp"/>
+
+
+
+        <Spinner
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:id="@+id/bulanspinner"
+            android:scrollbarSize="30dp"
+            android:spinnerMode="dialog"
+
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:text="Cari"
+            android:id="@+id/carisum"
+            android:background="@drawable/custom3"
+            android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="visible">
+
+
+        <TextView
+            android:id="@+id/bulan"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Bulan :"
+            android:textSize="17dp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Sales :"
+            android:textSize="15dp"/>
+
+
+
+        <EditText
+
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/namasaleslist"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:focusable="false"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Detail"
+            android:id="@+id/cekdetail"/>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+
+        <ListView
+            android:id="@+id/listtest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.barcode.Input"
+    android:background="#F0F4F4">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:background="#51647e"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+
+            >
+
+            <Button
+                android:id="@+id/buttonlogo"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputformnew"
+                android:text="" />
+            <TextView
+                android:id="@+id/namaoutletinput"
+                android:text="namaoutlet"
+                android:textSize="24dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+
+
+
+        android:text=""
+        android:textSize="24dp"
+        android:layout_width="2000dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"/>
+
+    <ScrollView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:context=".MainActivity"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+
+                <TextView
+                    android:text="Nama Sales"
+                    android:textSize="14dp"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:visibility="gone">
+
+
+
+                <TextView
+                    android:text="Nama user"
+                    android:textSize="14dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:layout_weight="1"/>
+
+                <EditText
+                    android:id="@+id/namauser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:enabled="false"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:layout_weight="1"
+                    android:editable="false"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/iditem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="11"
+                />
+
+            <TextView
+                android:id="@+id/tanggalinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="19/10/2021"
+
+                />
+
+            <TextView
+                android:id="@+id/idoutletinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="idoutlet"
+                />
+
+            <TextView
+                android:id="@+id/namasalesinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="nama sales"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="---PERDANA---"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:textStyle="bold"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+
+                            android:layout_width="14dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="Item"
+                            android:textSize="18dp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="QTY"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:gravity="right"
+
+                            />
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            />
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="1dp"
+                        android:background="@color/black"
+                        android:layout_margin="12dp"
+                        android:layout_gravity="top"
+                        />
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/p0k"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="0 K"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/p0k_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="10"
+                            android:maxLines="5"
+                            android:maxLength="5"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/hp0k"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="30dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="total p0k"
+    android:id="@+id/idtotalp0k_i"
+    android:visibility="gone"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/p2gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="2 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/p2gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="7"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hp2gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="total p0k"
+                        android:id="@+id/idtotalp2gb_i"
+                        android:visibility="gone"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/p6gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="6 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/p6gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hp6gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="total p0k"
+                        android:id="@+id/idtotalp6gb_i"
+                        android:visibility="gone"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/p9gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="9 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/p9gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hp9gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="total p0k"
+                        android:id="@+id/idtotalp9gb_i"
+                        android:visibility="gone"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/p16gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="16 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/p16gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/hp16gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="total p0k"
+                        android:id="@+id/idtotalp16gb_i"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/p35gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="35 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/p35gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hp35gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/idtotalp35gb_i"
+                        android:visibility="gone"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/p51gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="51 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/p51gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hp51gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/idtotalp51gb_i"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/p70gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="70 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/p70gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hp70gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/idtotalp70gb_i"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="---VOUCHER---"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:textStyle="bold"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+
+                            android:layout_width="14dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="Item"
+                            android:textSize="18dp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="QTY"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:gravity="right"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            />
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/black"
+                        android:layout_margin="12dp"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+
+                        >
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="TOTAL :"
+                            android:textStyle="italic|bold"
+                            android:textSize="21dp" />
+
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:textSize="21dp"
+                            android:textStyle="italic|bold"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/v0k"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="0 K"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/v0k_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hv0k"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/idtotalv0k_i"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/v15gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="1.5 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/v15gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hv15gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/idtotalv15gb_i"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/v25gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="2.5 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/v25gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hv25gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/idtotalv25gb_i"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/v35gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="3.5 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/v35gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hv35gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/idtotalv35gb_i"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/v4gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="4 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/v4gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/hv4gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/idtotalv4gb_i"
+                        android:visibility="gone"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/v10gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="10 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/v10gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hv10gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/idtotalv10gb_i"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/v14gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="14 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/v14gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hv14gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/idtotalv14gb_i"
+                        android:visibility="gone"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <TextView
+                            android:id="@+id/v70gb"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="70 GB"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/v70gb_i"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="5"
+                            android:maxLines="5"
+                            android:maxLength="5"
+                            />
+
+                        <TextView
+                            android:id="@+id/hv70gb"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_weight="3"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/idtotalv70gb_i"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/linkaja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LINKAJA"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:textStyle="bold"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#FFFFFF">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+
+                        >
+
+                        <TextView
+                            android:id="@+id/totalinput"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="TOTAL :"
+                            android:textStyle="italic|bold"
+                            android:textSize="21dp" />
+
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:textSize="21dp"
+                            android:textStyle="italic|bold"
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <TextView
+
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+
+                            android:text="SALDO"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/link"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18dp"
+                            android:inputType="numberDecimal"
+                            android:ems="10"
+                            android:maxLines="10"
+                            android:maxLength="10"
+                            />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL :            "
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic"/>
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic"/>
+
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="T"
+                    android:id="@+id/btntotal"/>
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                />
+
+
+            <TextView
+                android:text=""
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+
+
+            <Button
+                android:id="@+id/btninput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:text="Simpan"
+                android:background="#2196F3"/>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

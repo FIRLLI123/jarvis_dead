@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/itemlistitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perdana 35 GB"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+
+            android:layout_marginLeft="1dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+
+
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="QTY"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+
+                android:background="@color/merahtua"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Via"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/merahtua"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+            <TextView
+                android:id="@+id/qtylistitem"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/vialistitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50000"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

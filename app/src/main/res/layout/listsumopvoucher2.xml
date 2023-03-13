@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="8dp"
+        android:layout_marginLeft="4dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:text="BABA CELL"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/namaoutletlistsum2"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:text="240000123"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/idoutletlistsum2"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            >
+
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="QTY Yang Di ACT"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+
+                android:background="@color/merahmuda"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="item ACT"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/merahmuda"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Via"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/merahmuda"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+
+            <TextView
+                android:id="@+id/qtylistsum2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/namalistsum2"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Perdana 35 GB"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/vialistsum2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50000"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp"
+            >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL VOUCHER YANG TER ACT"
+                android:textStyle="bold|italic"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textStyle="bold|italic"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/totallistsum2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="90000000"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:textColor="@color/merah"
+                android:layout_marginRight="2dp"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pcs."
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Awal"
+    android:background="@color/merah"
+    android:orientation="vertical">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:background="@color/merah">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="top"
+            android:gravity="top"
+
+            >
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MASUKAN NO UNIQ KARYAWAN"
+        android:gravity="center"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/cek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="CEK"
+        android:background="@drawable/custom3"
+        android:visibility="gone"
+        />
+<TextView
+    android:id="@+id/hallo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/hallotampung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+    <TextView
+android:id="@+id/jam2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17:17"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="@color/white"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rabu, 25-Jan-2023"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:background="@drawable/dasboardtop2">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WAKTU"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/absendatang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08:20:22"
+            android:textStyle="bold"
+            android:textColor="@color/hijau"
+            android:layout_marginBottom="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="50dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lokasi"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/kecamatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SUKMAJAYA"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/hijau"
+                    android:layout_marginBottom="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_marginTop="17dp"
+            android:id="@+id/buttonabsendatang"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Absen Datang"
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:background="@drawable/background2"
+            android:layout_marginBottom="15dp"
+
+
+            />
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/lokasidatang"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Cek Lokasi"
+            android:textSize="12dp"
+            android:textColor="@color/merahtua"
+            android:background="@drawable/background2"
+            android:layout_marginBottom="15dp"
+            android:visibility="gone"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendence In"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ListView
+                android:id="@+id/listtest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/cek2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="cek 2"
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:background="@drawable/background2"
+            android:visibility="gone"
+            />
+
+<LinearLayout
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:visibility="gone">
+        <TextView
+            android:id="@+id/tabsendatang"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="VERIFIKASI"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/ok"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/agree90"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/ga"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/silang90"
+            android:visibility="gone"/>
+
+</LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/absenpulang"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Absen Pulang"
+            android:textColor="@color/white"
+            android:background="@drawable/custom2"
+            />
+
+
+        <TextView
+            android:id="@+id/tabsenpulang"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="VERIFIKASI"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/validasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/namasales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Sales"/>
+
+    <TextView
+        android:id="@+id/absendatang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="absen datang"/>
+    <TextView
+        android:id="@+id/lokasiabsendatang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lokasi absen datang"/>
+    <TextView
+        android:id="@+id/absenpulang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="absen pulang"/>
+    <TextView
+        android:id="@+id/lokasiabsenpulang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lokasi absen pulang"/>
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="longitude"/>
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="latitude"/>
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tanggal"/>
+
+</LinearLayout>
+</LinearLayout>
+
+
+
+
+

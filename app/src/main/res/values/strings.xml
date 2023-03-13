@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Reka Mitra</string>
+    <string name="underline"><u>klik disini</u></string>
+    <string name="underlinekm"><u>Input Kilo Meter</u></string>
+    <string name="underline2"><u>Lihat ID Barang</u></string>
+    <string name="notification_channel_id">your_channel_id</string>
+
+
+</resources>

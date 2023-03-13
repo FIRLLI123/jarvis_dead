@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/tanggallistabsen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TANGGAL"
+            android:textColor="@color/black"
+            android:layout_marginLeft="1dp"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/jamlistabsen"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="23:23:23"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:gravity="left"/>
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/gps2"
+                android:layout_gravity="right"
+                android:paddingBottom="10dp"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:id="@+id/kecamatanlistabsen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUKMAJAYA"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:gravity="bottom">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/arrow"
+                    android:layout_gravity="right"
+                    android:paddingBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

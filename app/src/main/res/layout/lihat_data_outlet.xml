@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LihatDataOutlet"
+    android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:background="#51647e"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+
+    <Button
+        android:id="@+id/buttonlogo"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/store"
+        android:text="" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/namaoutlet"
+                android:text="JOKER 2 CELL"
+                android:textSize="30dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/namasales"
+                android:text="EKO SURYANTO"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/bulan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="Oktober"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/idoutlet"
+        android:text="2400016882"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/birumuda">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="right"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BULAN :"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:textSize="16dp"
+        android:textStyle="bold|italic"/>
+
+    <Spinner
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:id="@+id/spinner"
+        android:scrollbarSize="30dp"
+
+       />
+
+    <Button
+        android:id="@+id/btnbulan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PILIH BULAN"/>
+
+</LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/birumuda">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right"
+            >
+
+
+
+            <Button
+                android:id="@+id/cekstatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CEK GAP"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Update sampai tanggal :"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tanggalupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2021/11/01"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/black"
+            android:layout_margin="12dp"
+            android:layout_gravity="top"
+            />
+
+    <ScrollView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".LihatDataOutlet"
+            >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KPI PERFORMANSI"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/custom3"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="PARAMETER"
+            android:textSize="11dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="TARGET"
+            android:textSize="11dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ACTUAL"
+            android:textSize="11dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="%ACH"
+            android:textSize="11dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="GAP"
+            android:textSize="11dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="@color/abu"
+                        android:layout_marginTop="5dp"
+                        >
+                        <TextView
+                            android:id="@+id/electronik"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="TRX ELEKTRONIK"
+                            android:textSize="11dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:id="@+id/targetelectronik"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="99999"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:background="@drawable/background"/>
+
+                        <TextView
+                            android:id="@+id/actualelectronik"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="999999"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:background="@drawable/background"/>
+
+                        <TextView
+                            android:id="@+id/achelectronik"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="999999"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:background="@drawable/background"/>
+
+                        <TextView
+                            android:id="@+id/gapelectronik"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="999999"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:background="@drawable/background"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        >
+                        <TextView
+                            android:id="@+id/hero"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="HERO PACKAGE"
+                            android:textSize="11dp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/targethero"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="99999"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:background="@drawable/background"/>
+
+                        <TextView
+                            android:id="@+id/actualhero"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="999999"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:background="@drawable/background"/>
+
+                        <TextView
+                            android:id="@+id/achhero"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="999999"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:background="@drawable/background"/>
+
+                        <TextView
+                            android:id="@+id/gaphero"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="999999"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:background="@drawable/background"/>
+
+                    </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PERDANA"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/custom3"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="PARAMETER"
+                    android:textSize="11dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="TARGET"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="ACTUAL"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="%ACH"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="GAP"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                >
+                <TextView
+                    android:id="@+id/stper"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="ST PERDANA"
+                    android:textSize="11dp"
+
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/targetstper"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualstper"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achstper"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gapstper"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/insa"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="INJECT SA"
+                    android:textSize="11dp"
+
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/targetinsa"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualinsa"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achinsa"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gapinsa"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/soper"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="SO PERDANA"
+                    android:textSize="11dp"
+
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/targetsoper"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualsoper"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achsoper"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gapsoper"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VOUCHER FISIK"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/custom3"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="PARAMETER"
+                    android:textSize="11dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="TARGET"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="ACTUAL"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="%ACH"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="GAP"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                >
+                <TextView
+                    android:id="@+id/stvoucher"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="ST VOSIK"
+                    android:textSize="11dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/targetstvoucher"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualstvoucher"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achstvoucher"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gapstvoucher"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/invoucher"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="INJECT VOSIK"
+                    android:textSize="11dp"
+
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/targetinvoucher"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualinvoucher"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achinvoucher"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gapinvoucher"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/sovoucher"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="SO VOSIK"
+                    android:textSize="11dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/targetsovoucher"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualsovoucher"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achsovoucher"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gapsovoucher"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WATERFALL"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/custom3"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="PARAMETER"
+                    android:textSize="11dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="TARGET"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="ACTUAL"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="%ACH"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="GAP"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                >
+                <TextView
+                    android:id="@+id/comsak"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="COMBO SAKTI"
+                    android:textSize="11dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/targetcomsak"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualcomsak"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achcomsak"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gapcomsak"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/insak"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="INTERNET SAKTI"
+                    android:textSize="11dp"
+
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/targetinsak"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualinsak"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achinsak"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gapinsak"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/renewal"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="RENEWAL"
+                    android:textSize="11dp"
+
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/targetrenewal"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualrenewal"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achrenewal"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gaprenewal"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/digital"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="DIGITAL"
+                    android:textSize="11dp"
+
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/targetdigital"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualdigital"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achdigital"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gapdigital"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/vopackage"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="VOICE PACKAGE"
+                    android:textSize="11dp"
+
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/targetvopackage"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualvopackage"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achvopackage"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gapvopackage"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="USIM MIGRATION"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/custom3"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="PARAMETER"
+                    android:textSize="11dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="TARGET"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="ACTUAL"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="%ACH"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="GAP"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                >
+                <TextView
+                    android:id="@+id/stota"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="ST OTA"
+                    android:textSize="11dp"
+
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/targetstota"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualstota"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achstota"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gapstota"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/usim"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="TRX USIM"
+                    android:textSize="11dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/targetusim"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="99999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/actualusim"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/achusim"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+                <TextView
+                    android:id="@+id/gapusim"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="999999"
+                    android:textSize="11dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/background"/>
+
+            </LinearLayout>
+
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
+</LinearLayout>
+
+

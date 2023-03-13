@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Nomor"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/merahmuda"
+                android:gravity="center"
+
+                />
+
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Item"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/merahmuda"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nominal"
+                android:textColor="@color/white"
+                android:background="@color/merahmuda"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idlistlink"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="999999"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                />
+
+
+            <TextView
+                android:id="@+id/listitemlink"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="SALDO LINK"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/listlink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

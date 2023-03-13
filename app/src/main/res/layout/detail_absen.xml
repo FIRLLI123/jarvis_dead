@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TesCoding"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:background="@color/merah">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="top"
+                android:gravity="top"
+                >
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/delete"
+                    android:layout_gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hapus Absen"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="5dp">
+        <ImageView
+            android:id="@+id/approveabsen"
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            android:src="@drawable/ceklist"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:visibility="gone"
+            />
+    <ImageView
+        android:id="@+id/pendingabsen"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:src="@drawable/pending"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:visibility="gone"
+        />
+
+
+    <ImageView
+        android:id="@+id/tolakabsen"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:src="@drawable/silang"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:visibility="gone"
+        />
+
+
+
+    <TextView
+        android:id="@+id/statusabsen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APPROVE"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="3dp"/>
+
+</LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/gps2"
+            android:layout_gravity="left"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/lokasilengkap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jl. Ir. H. Juanda No.3, Mekar Jaya, Kec. Sukmajaya, Kota Depok, Jawa Barat 16418, Indonesia"
+            android:textColor="@color/black"
+            android:layout_marginLeft="3dp"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="id"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/edittextkotak"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:id="@+id/idabsen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Nama Karyawan"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/edittextkotak"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:id="@+id/namasales"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Jam"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/edittextkotak"
+                android:padding="5dp"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:id="@+id/jam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Tanggal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/edittextkotak"
+                android:padding="5dp"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:id="@+id/tanggal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Keterangan"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/edittextkotak"
+                android:padding="5dp"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:id="@+id/keterangan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Absen"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/edittextkotak"
+                android:padding="5dp"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:id="@+id/absen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/btndelete"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="marquee"
+                android:textSize="10dp"
+                android:textColorLink="@color/black"
+                android:text="HAPUS ABSEN"
+                android:textColor="@color/white"
+                android:background="@drawable/abuabu"
+                android:layout_marginLeft="10dp"
+                android:enabled="false"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

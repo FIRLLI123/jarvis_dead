@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TesCoding"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/hasilpilihan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUDAH TERBAYAR"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/custom10"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/hasilpilihan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUDAH TERBAYAR"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/custom10"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/idoutlet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:visibility="gone"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/merah">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:gravity="bottom">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    >
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/masihtempo3"
+                        android:layout_gravity="bottom"
+                        android:paddingBottom="10dp"
+                        android:layout_marginLeft="1dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="left"
+                        android:layout_marginTop="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="DETAIL TEMPO PADA OUTLET,"
+                            android:textSize="15dp"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="1dp"
+                            android:textColor="@color/white"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+
+                            <TextView
+                                android:id="@+id/namasales"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rafli Agung Permana"
+                                android:textStyle="bold"
+                                android:textSize="15dp"
+                                android:layout_gravity="left"
+                                android:layout_marginLeft="1dp"
+                                android:textColor="@color/white"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="- Di Outlet"
+                                android:textStyle="bold"
+                                android:textSize="15dp"
+                                android:layout_gravity="left"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+
+
+                        <TextView
+                            android:id="@+id/namaoutlet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ABC CELL"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="1dp"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="bottom">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CLUSTER DEPOK /TAP JUANDA / "
+                        android:textSize="13dp"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/idoutlet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="idoutlet"
+                        android:textSize="13dp"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal :"
+                android:textSize="12dp"
+                android:textColor="@color/abutua"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2023/01/01"
+                android:id="@+id/tanggaldari"
+                android:textSize="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/abutua"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="12dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2023/01/31"
+                android:id="@+id/tanggalsampai"
+                android:textSize="12dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/abutua"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Cari"
+                android:id="@+id/cari"
+                android:visibility="gone"
+                android:background="@drawable/custom3"
+                android:layout_marginLeft="5dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/masihtempo"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TEMPO"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/jumlahtempo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/merah"
+                    android:textStyle="italic|bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Faktur"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="5dp"/>
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="30dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ceklist"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dibayarkan"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/jumlahdibayarkan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/hijau"
+                    android:textStyle="italic|bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Faktur"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tempo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEMPO"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/sudahterbayar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUDAH TERBAYAR"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/idoutlet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="idoutlet"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/namasales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="namasales"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/idpenjualan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="idoutlet"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/namaoutlet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="namaoutlet"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:id="@+id/namaitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="namaitem"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="qty"
+            android:visibility="gone"/>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+
+            <ListView
+                android:id="@+id/listtempooutlet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

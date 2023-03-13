@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                tools:context=".MainActivity"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Nama Sales"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:visibility="gone"/>
+
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:visibility="gone">
+
+
+
+                    <TextView
+                        android:text="Nama user"
+                        android:textSize="14dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:layout_gravity="center"
+                        android:gravity="right"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/namauser"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="8"
+                        android:enabled="false"
+                        android:inputType="textPersonName"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:editable="false"
+                        />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tanggalinputperdana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="19/10/2021"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:id="@+id/idoutletinputperdana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="idoutlet"
+                    android:visibility="gone"
+
+                    />
+
+                <TextView
+                    android:id="@+id/namasalesinputperdana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="nama sales"
+                    android:visibility="gone"
+
+                    />
+
+                <TextView
+                    android:id="@+id/namaoutletinputperdana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="nama sales"
+                    android:visibility="gone"
+
+                    />
+
+                <TextView
+                    android:id="@+id/jaminput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="09:00"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="INPUT DATA VOUCHER"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="7dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="*ID Item"
+                                android:textColor="@color/black" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal"
+                            android:foregroundGravity="top"
+                            android:weightSum="3">
+
+                            <EditText
+                                android:id="@+id/idbarang"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/background"
+                                android:focusable="true"
+                                android:gravity="top"
+                                android:hint="ID"
+                                android:inputType="text"
+                                android:padding="8dp"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"
+                                android:visibility="gone"/>
+
+
+                            <AutoCompleteTextView
+                                android:id="@+id/edittext99"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:hint="ID"
+                                android:focusable="true"
+                                android:gravity="top"
+                                android:layout_width="80dp"
+                                android:textSize="13dp"
+                                android:padding="8dp"
+                                android:background="@drawable/background"
+                                />
+
+                            <Button
+                                android:id="@+id/cariid"
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:text="CARI ID"
+                                android:textSize="10dp"
+                                android:textColor="@color/white"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/custom2"/>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nama Item"
+                            android:textColor="@color/black"
+                            />
+
+                        <EditText
+                            android:id="@+id/namabarang"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/background"
+                            android:gravity="top"
+                            android:hint="Nama Item"
+                            android:focusable="false"
+                            android:padding="8dp"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="7dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Kuantiti"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Harga"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="52dp"
+                                />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/qtybarang"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/background"
+                                android:focusable="true"
+                                android:gravity="top"
+                                android:hint="KUANTITI"
+                                android:inputType="number"
+                                android:padding="8dp"
+                                android:textColor="@color/black"
+                                android:textSize="13dp" />
+
+
+                            <EditText
+                                android:id="@+id/hargabarang"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:background="@drawable/background"
+                                android:focusable="true"
+                                android:gravity="top"
+                                android:hint="HARGA"
+                                android:padding="8dp"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"
+                                android:inputType="number"
+                                />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="No Seri"
+                            android:textColor="@color/black"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/keterangan2"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:background="@drawable/background"
+                            android:focusable="true"
+                            android:gravity="top"
+                            android:hint="NOMOR SERI"
+                            android:padding="8dp"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:inputType="phone"
+                            android:digits="0,1,2,3,4,5,6,7,8,9,\n,-, "
+
+                            />
+
+
+                    </LinearLayout>
+
+                    </ScrollView>
+                </android.support.v7.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="TOTAL :            "
+                        android:textSize="15dp"
+                        android:textStyle="bold|italic"/>
+
+
+                    <TextView
+                        android:id="@+id/total"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textSize="20dp"
+                        android:textStyle="bold|italic"/>
+
+
+
+                    <Button
+                        android:id="@+id/btntotal"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:ellipsize="marquee"
+                        android:textSize="8dp"
+                        android:textColor="@color/black"
+                        android:text="Jumlahkan"
+                        android:background="@drawable/custom3"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:background="@color/black"
+                    />
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <Button
+                        android:id="@+id/btninput"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:ellipsize="marquee"
+                        android:textSize="10dp"
+                        android:textColor="@color/white"
+                        android:text="Tambah"
+                        android:background="@drawable/custom4"/>
+
+                    <EditText
+                        android:id="@+id/iddelete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:layout_marginLeft="30dp"
+                        android:visibility="gone"/>
+
+                    <Button
+                        android:id="@+id/btndelete"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:ellipsize="marquee"
+                        android:textSize="10dp"
+                        android:textColor="@color/white"
+                        android:text="HAPUS"
+                        android:background="@drawable/custom4"
+                        android:layout_marginLeft="10dp"/>
+
+                    <Button
+                        android:id="@+id/btnupdate"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:ellipsize="marquee"
+                        android:textSize="10dp"
+                        android:text="Edit"
+                        android:textColor="@color/white"
+                        android:background="@drawable/custom4"
+                        android:layout_marginLeft="10dp"/>
+
+                    <Button
+                        android:id="@+id/btnrefresh"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:ellipsize="marquee"
+                        android:textSize="10dp"
+                        android:textColorLink="@color/black"
+                        android:text="REFRESH"
+                        android:textColor="@color/white"
+                        android:background="@drawable/custom4"
+                        android:layout_marginLeft="10dp"/>
+
+
+                    w
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <ListView
+                        android:id="@+id/listinputperdana"
+                        android:layout_width="match_parent"
+                        android:layout_height="211dp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <Button
+                android:id="@+id/btncetak"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ellipsize="marquee"
+                android:textSize="10dp"
+                android:textColorLink="@color/black"
+                android:text="CETAK"
+                android:textColor="@color/white"
+                android:background="@drawable/custom2"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

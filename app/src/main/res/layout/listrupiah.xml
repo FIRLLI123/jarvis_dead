@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/namasaleslisttest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perdana 35 GB"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"
+                android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tanggallisttest"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="2022/12/17"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/totallisttest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perdana dan Voucher"
+                android:textColor="@color/black"
+                android:layout_marginLeft="1dp"
+                android:gravity="center" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=">"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:gravity="right"
+                android:textSize="25dp"
+                android:layout_marginRight="20dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

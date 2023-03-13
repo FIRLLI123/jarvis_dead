@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TesCoding"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/navy_bottom_round"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/namasaleslistsum2"
+                android:text="RAFLI AGUNG PERMANA"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="17dp"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:background="@drawable/bulat_transparan_putih"
+
+            >
+
+            <ImageView
+
+                android:layout_marginRight="1dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:background="@drawable/date"/>
+
+            <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2023/01/01"
+                android:textSize="8dp"
+                android:layout_marginBottom="1dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Sales :"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+
+
+
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CETAK"
+            android:id="@+id/cetak"
+            android:background="@drawable/custom3"
+            android:visibility="gone"/>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Outlet"
+        android:id="@+id/namaoutletlist"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Outlet"
+        android:id="@+id/idoutletlist"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="RIWAYAT PENGAMBILAN BARANG SALES"
+        android:id="@+id/sumitem"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom2"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="TOTAL INPUTAN : "
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/total_item"
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+
+        <ListView
+            android:id="@+id/listsum2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

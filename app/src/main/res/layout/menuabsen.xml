@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Awal"
+    android:background="@drawable/j1"
+    android:orientation="vertical">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:background="@color/abutua">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="top"
+            android:gravity="top"
+
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:src="@drawable/absensi"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABSENSI"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/logorekamitra"
+                    android:layout_gravity="right"
+                    android:paddingTop="7dp"
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="MASUKAN NO UNIQ KARYAWAN"
+            android:gravity="center"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/cek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="CEK"
+            android:background="@drawable/custom3"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/hallo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/hallotampung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="WAKTU"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/absendatang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="08:20:22"
+                        android:textStyle="bold"
+                        android:textColor="@color/hijau"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="50dp">
+                    <TextView
+                        android:id="@+id/absendatang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lokasi"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/kecamatan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BELUM TERDETEKSI"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/hijau"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bbbbbbb"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:id="@+id/namakaryawan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/namakaryawan2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hallo namakaryawan, Silahkan Absen yaa"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:id="@+id/validasidatang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="menunggu koneksi datang"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:id="@+id/validasipulang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="menunggu koneksi pulang"
+                android:visibility="gone"/>
+
+
+
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:id="@+id/buttonabsendatang"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Absen Datang"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                android:background="@color/merah"
+                />
+
+
+
+
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/buttonabsenpulang"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Absen Pulang"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                android:background="@color/merah"
+                />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/cek"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Absen Pulang"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                android:background="@color/merah"
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <TextView
+                    android:id="@+id/tabsendatang"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="VERIFIKASI"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
+                <ImageView
+                    android:id="@+id/ok"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/agree90"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/ga"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/silang90"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/absenpulang"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Absen Pulang"
+                android:textColor="@color/white"
+                android:background="@drawable/custom2"
+                />
+
+
+            <TextView
+                android:id="@+id/tabsenpulang"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="VERIFIKASI"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/validasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/namasales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Sales"/>
+
+            <TextView
+                android:id="@+id/absendatang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="absen datang"/>
+            <TextView
+                android:id="@+id/lokasiabsendatang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lokasi absen datang"/>
+            <TextView
+                android:id="@+id/absenpulang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="absen pulang"/>
+            <TextView
+                android:id="@+id/lokasiabsenpulang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lokasi absen pulang"/>
+            <TextView
+                android:id="@+id/longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="longitude"/>
+            <TextView
+                android:id="@+id/latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="latitude"/>
+            <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tanggal"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

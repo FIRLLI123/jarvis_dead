@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imgbarang"
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/txtnama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:id="@+id/txtharga"
+            android:layout_width="366dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/txtstock"
+            android:layout_alignStart="@+id/txtstock"
+            android:layout_alignLeft="@+id/txtstock"
+            android:layout_marginBottom="12dp"
+            android:text="Harga Barang"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txtstock"
+            android:layout_width="371dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="Stock"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtharga"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtnama"
+        android:layout_width="370dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/imgbarang"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imgbarang"
+        android:layout_marginTop="16dp"
+        android:text="Nama Barang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownId" />
+</RelativeLayout>
+
+

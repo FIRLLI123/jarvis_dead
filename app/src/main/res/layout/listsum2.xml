@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/merahmudah2"
+    android:padding="1dp">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bulet_putih"
+        android:padding="7dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/titik"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:text="BABA CELL"
+        android:textStyle="bold"
+        android:textColor="@color/navy"
+        android:id="@+id/namaoutletlistsum2"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:text="-"
+        android:textStyle="bold"
+        android:textColor="@color/navy"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:text="240000123"
+        android:textStyle="bold"
+        android:textColor="@color/navy"
+        android:id="@+id/idoutletlistsum2"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            >
+
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Nama Item"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/merah"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="QTY"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:background="@color/merah"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harga"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:background="@color/merah"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pembayaran"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:background="@color/merahmuda"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+            <TextView
+                android:id="@+id/namalistsum2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Perdana 35 GB"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/qtylistsum2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/hargalistsum2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5000000"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/pembayaranlistsum2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CASH/TEMPO"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp"
+            >
+
+            <TextView
+
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:text="TOTAL"
+                android:textStyle="bold|italic"
+                android:textSize="15dp"
+                android:textColor="@color/merahmudah2"
+                />
+
+            <TextView
+
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textStyle="bold|italic"
+                android:textSize="15dp"
+                android:textColor="@color/merahmudah2"
+                />
+
+            <TextView
+                android:id="@+id/totallistsum2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="90000000"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textColor="@color/merahmudah2"
+                />
+        </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/abubuletkopong2"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="7dp"
+        android:padding="8dp"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/namasaleslistabsen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAMA SALES"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="1dp"
+                android:gravity="left"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/idlistabsen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="id"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="1dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL ABSEN DITOLAK"
+                android:textSize="11dp"
+                android:textStyle="bold"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:gravity="left"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="|"
+                android:textStyle="bold"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="7dp"
+                android:textSize="15dp"
+                android:gravity="left"/>
+
+
+            <TextView
+                android:id="@+id/statuslistabsen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30"
+                android:textSize="11dp"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:gravity="right"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
