@@ -741,13 +741,10 @@ t_pending_voucher();
                                     .into(img);
                             //txtnama.setText(list_data.get(0).get("nama"));
                             //txtharga.setText(list_data.get(0).get("harga_barang"));
-                            //txtstock.setText(list_data.get(0).get("stock"));
-
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
                     }
-
                     @Override
                     public void onError(ANError error) {
                         // handle error
