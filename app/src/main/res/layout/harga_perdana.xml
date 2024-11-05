@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:context=".MainActivity"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Nama Sales"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:visibility="gone"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:visibility="gone"
+                >
+
+
+
+                <TextView
+                    android:text="Nama user"
+                    android:textSize="14dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:layout_weight="1"/>
+
+                <EditText
+                    android:id="@+id/namauser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:enabled="false"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:layout_weight="1"
+                    android:editable="false"
+                    />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tanggalinputperdana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="19/10/2021"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/idoutletinputperdana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="2400014119"
+                android:visibility="gone"
+
+                />
+
+            <TextView
+                android:id="@+id/namasalesinputperdana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="FIRLLI"
+                android:visibility="gone"
+
+                />
+
+            <TextView
+                android:id="@+id/namaoutletinputperdana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="81282172107-IBNU CELL"
+                android:visibility="gone"
+
+                />
+
+            <TextView
+                android:id="@+id/jaminput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="09:00"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/gudang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="GUDANG VOUCHER"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/idstok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="0"
+                android:visibility="gone"
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HARGA PERDANA"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="7dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="*ID Item"
+                                android:textColor="@color/black" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            >
+
+                            <EditText
+                                android:id="@+id/idbarang"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/background"
+                                android:focusable="true"
+                                android:gravity="top"
+                                android:hint="ID"
+                                android:inputType="text"
+                                android:padding="8dp"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"
+                                android:visibility="visible"/>
+
+
+                            <Button
+                                android:id="@+id/cariid"
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:text="CARI ID"
+                                android:textSize="10dp"
+                                android:textColor="@color/white"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/custom2"/>
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nama Item"
+                            android:textColor="@color/black"
+                            />
+
+                        <EditText
+                            android:id="@+id/namabarang"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/background"
+                            android:gravity="top"
+                            android:hint="Nama Item"
+                            android:padding="8dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:layout_marginBottom="7dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:textColor="@color/black"
+                            />
+
+                        <EditText
+                            android:id="@+id/hargabarang"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/background"
+                            android:gravity="top"
+                            android:hint="Harga"
+                            android:padding="8dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/black"
+                            android:layout_gravity="top"
+                            />
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:layout_width="180dp"
+                                android:layout_height="wrap_content"
+                                android:text="Transfer"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:text="Cash"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="21dp"
+                                />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="No Seri"
+                            android:textColor="@color/black"
+                            android:visibility="gone"
+
+                            />
+
+                        <EditText
+                            android:visibility="gone"
+                            android:id="@+id/keterangan2"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:background="@drawable/background"
+                            android:focusable="true"
+                            android:gravity="top"
+                            android:hint="NOMOR SERI"
+                            android:padding="8dp"
+                            android:text="00"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:inputType="phone"
+                            android:digits="0,1,2,3,4,5,6,7,8,9,\n,-, "
+
+                            />
+
+
+                        <EditText
+                            android:id="@+id/validasijumlahkan"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:background="@drawable/background"
+                            android:focusable="true"
+                            android:gravity="top"
+
+                            android:padding="8dp"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:inputType="number"
+                            android:visibility="gone"
+                            />
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <Button
+                    android:id="@+id/tambah"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:ellipsize="marquee"
+                    android:textSize="10dp"
+                    android:textColor="@color/white"
+                    android:text="Tambah"
+                    android:background="@drawable/custom4"/>
+
+                <EditText
+                    android:id="@+id/iddelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:layout_marginLeft="30dp"
+                    android:visibility="gone"
+                    android:text="1"/>
+
+
+
+                <Button
+                    android:id="@+id/btndelete"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:ellipsize="marquee"
+                    android:textSize="10dp"
+                    android:textColor="@color/white"
+                    android:text="HAPUS"
+                    android:background="@drawable/custom4"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"/>
+
+
+                <Button
+                    android:id="@+id/update"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:ellipsize="marquee"
+                    android:textSize="10dp"
+                    android:textColorLink="@color/black"
+                    android:text="UPDATE"
+                    android:textColor="@color/white"
+                    android:background="@drawable/custom4"
+                    android:layout_marginLeft="10dp"/>
+
+                <Button
+                    android:id="@+id/refresh"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:ellipsize="marquee"
+                    android:textSize="10dp"
+                    android:textColorLink="@color/black"
+                    android:text="REFRESH"
+                    android:textColor="@color/white"
+                    android:background="@drawable/custom4"
+                    android:layout_marginLeft="10dp"/>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <EditText
+                android:id="@+id/validasicaripenjualan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="3"
+                android:layout_marginLeft="30dp"
+                android:visibility="gone"
+                android:text=""/>
+
+            <Button
+                android:id="@+id/teshapus"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:ellipsize="marquee"
+                android:textSize="10dp"
+                android:textColorLink="@color/black"
+                android:text="teshapus"
+                android:textColor="@color/white"
+                android:background="@drawable/custom4"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ListView
+                    android:id="@+id/listinputperdana"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="SUBTOTAL :            "
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"/>
+
+
+            <TextView
+                android:id="@+id/subtotal"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/subtotal2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:visibility="gone"/>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            android:layout_gravity="top"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Transfer"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Cash"
+                android:textColor="@color/black"
+                android:layout_marginLeft="21dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/transfer"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroundkotakhitam"
+                android:focusable="true"
+                android:gravity="top"
+                android:hint="Nominal Tranfer"
+                android:inputType="numberDecimal"
+                android:digits="0123456789.,"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:text="0"/>
+
+
+            <EditText
+                android:id="@+id/cashh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/backgroundkotakhitam"
+                android:focusable="false"
+                android:gravity="top"
+                android:hint="Nonimal Cash"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:inputType="number"
+                android:text="0"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/tesjumlah"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="marquee"
+            android:textSize="10dp"
+            android:textColorLink="@color/black"
+            android:text="jumlah"
+            android:textColor="@color/white"
+            android:background="@drawable/custom2"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:visibility="gone"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

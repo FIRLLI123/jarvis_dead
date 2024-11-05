@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="8dp"
+        android:layout_marginLeft="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="14dp"
+        android:text="Tanggal"
+        android:textStyle="bold"
+        android:textColor="@color/merahtua"
+        android:id="@+id/tanggallistselisih"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            >
+
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Item"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/merahmuda"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="QTY"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:background="@color/merahmuda"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keterangan"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:background="@color/merahmuda"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+            <TextView
+                android:id="@+id/namaitemlist"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Perdana 35 GB"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/qtylist"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="qty"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/jamlist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="jam"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+            >
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

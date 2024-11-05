@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TesCoding"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Data Paket Penjualan"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="kategori"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+
+
+    <TextView
+        android:id="@+id/harga1_teks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="namapaket"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/harga2_teks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="harga paket 1"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/namapaket_teks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="harga paket 2"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+
+
+
+        <TextView
+            android:id="@+id/namasalesforward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp"/>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:id="@+id/nama_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:background="@drawable/bulat_transparan_putih"
+                >
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Paket :"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/namapaket"
+                    android:textSize="15dp"
+                    android:ems="10"
+                    android:padding="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:imeOptions="actionSend"
+                    android:background="@drawable/backgroundkotakhitam"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="#FFFFFF"
+            android:layout_marginLeft="9dp">
+
+            <LinearLayout
+                android:id="@+id/caridatapaket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:background="@drawable/bulat_transparan_putih"
+
+                >
+
+                <ImageView
+
+                    android:layout_marginRight="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="22dp"
+                    android:layout_height="21dp"
+                    android:background="@drawable/search"/>
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/idoutlet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="idoutlet"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/namasales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="namasales"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Sales :"
+            android:textSize="15dp"/>
+
+
+
+        <EditText
+
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/namasaleslist"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:focusable="false"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Detail"
+            android:id="@+id/cekdetail"/>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+
+        <ListView
+            android:id="@+id/listdataoutlet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

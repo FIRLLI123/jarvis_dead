@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_barang"
+    android:orientation="vertical"
+    android:background="#F3F3F3">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text=" Data Diri"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/id_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textColor="@color/black"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="2dp"
+        android:visibility="gone"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
+                android:layout_marginBottom="2dp"
+                />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bulat_transparan_hitam"
+                android:gravity="top"
+                android:hint="Username"
+                android:padding="8dp"
+                android:focusable="false"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="2dp"
+                />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:gravity="top"
+                android:hint="Password"
+                android:padding="8dp"
+                android:focusable="true"
+                android:text=""
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="2dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/nama"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bulat_transparan_hitam"
+                    android:gravity="top"
+                    android:hint="Nama"
+                    android:padding="8dp"
+                    android:focusable="false"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="13dp" />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Posisi"
+                android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="2dp"
+                />
+
+            <EditText
+                android:id="@+id/posisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bulat_transparan_hitam"
+                android:gravity="top"
+                android:hint="Posisi"
+                android:padding="8dp"
+                android:focusable="false"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perusahaan"
+                android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="2dp"
+                />
+
+            <EditText
+                android:id="@+id/nomor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:gravity="top"
+                android:hint="Perusahaan"
+                android:padding="8dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor"
+                android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="2dp"
+                />
+
+            <EditText
+                android:id="@+id/perusahaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bulat_transparan_hitam"
+                android:gravity="top"
+                android:hint="Nomor"
+                android:padding="8dp"
+                android:focusable="false"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="2dp"
+                />
+
+            <EditText
+                android:id="@+id/alamat"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/background"
+                android:gravity="top"
+                android:hint="Alamat"
+                android:padding="9dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:inputType="text"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expired Date"
+                android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="2dp"
+                />
+
+            <EditText
+                android:id="@+id/tanggalpembelian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bulat_transparan_hitam"
+                android:gravity="top"
+                android:hint="Nama"
+                android:padding="8dp"
+                android:text="Tanpa Nama"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:focusable="false"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sales"
+                android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="2dp"
+                />
+
+            <EditText
+                android:id="@+id/sales"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bulat_transparan_hitam"
+                android:gravity="top"
+                android:hint="Nama"
+                android:padding="8dp"
+                android:text="Tanpa Nama"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:focusable="false"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bidang"
+                android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="2dp"
+                />
+
+            <EditText
+                android:id="@+id/bidang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bulat_transparan_hitam"
+                android:gravity="top"
+                android:hint="Nama"
+                android:padding="8dp"
+                android:text="Tanpa Nama"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:layout_marginBottom="30dp"
+                android:focusable="false"/>
+
+
+
+
+
+
+            <Button
+                android:id="@+id/simpan"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="marquee"
+                android:textSize="10dp"
+                android:textColorLink="@color/black"
+                android:text="SIMPAN"
+                android:textColor="@color/white"
+                android:background="@drawable/custom2"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

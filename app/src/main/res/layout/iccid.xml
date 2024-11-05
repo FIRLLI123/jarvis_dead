@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TesCoding"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LIST NO. SERI"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+    <TextView
+        android:id="@+id/idoutlet"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="idoutlet"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:id="@+id/namaoutlet"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="namaoutlet"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:id="@+id/namasales"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="namasales"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="tanggal"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:id="@+id/namaitem"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="namaitem"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:id="@+id/gudang"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="gudang"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold|italic"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/noseri1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:gravity="top"
+            android:hint="No Seri Awal"
+            android:padding="8dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/hitung"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:gravity="center"
+android:focusable="false"
+        android:layout_marginLeft="3dp"
+        android:padding="8dp"
+        android:text="0"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/noseri2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:gravity="top"
+        android:hint="No Seri Akhir"
+android:focusable="false"
+        android:padding="8dp"
+        android:layout_marginLeft="3dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cari"
+            android:layout_width="110dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="marquee"
+            android:textSize="10dp"
+            android:textColorLink="@color/black"
+            android:text="cari"
+            android:textColor="@color/white"
+            android:background="@drawable/custom2"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="110dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="marquee"
+            android:textSize="10dp"
+            android:textColorLink="@color/black"
+            android:text="Reset"
+            android:textColor="@color/white"
+            android:background="@drawable/custom2"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginRight="9dp"
+            android:background="@color/black"
+            />
+
+
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="marquee"
+            android:textSize="10dp"
+            android:textColorLink="@color/black"
+            android:text="INPUT NO. SERI"
+            android:textColor="@color/white"
+            android:background="@drawable/custom2"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"/>
+
+
+        <EditText
+            android:id="@+id/hasil"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background3"
+            android:hint="0"
+            android:focusable="false"
+            android:padding="8dp"
+            android:text="0"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jumlah data yang di pilih : "
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/jumlahiccid"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold|italic"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/hasiljumlahsisah"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background3"
+            android:hint="0"
+            android:focusable="false"
+            android:padding="8dp"
+            android:text="2"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Sales :"
+            android:textSize="15dp"/>
+
+
+
+        <EditText
+
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/namasaleslist"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:focusable="false"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Detail"
+            android:id="@+id/cekdetail"/>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+
+        <ListView
+            android:id="@+id/listdataoutlet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

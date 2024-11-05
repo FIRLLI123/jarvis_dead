@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TesCoding"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="DOKUMENTASI OUTLET"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="1dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Dokumentasi :"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:id="@+id/tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:text="2022/1/6"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/jam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:text="00:09"
+            android:textSize="15dp" />
+
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/merahtua"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A CELL"
+            android:id="@+id/namaoutlet"
+            android:textSize="19dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:id="@+id/id"
+        android:textSize="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/view_line_dotted"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PEMBUAT DOKUMENTASI"
+            android:textSize="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:id="@+id/namasales"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tfperdana12"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Kecamatan"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:id="@+id/kecamatan"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Kelurahan"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:id="@+id/kelurahan"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Alasan Tidak Berdigipos"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:id="@+id/alasan"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Sticker"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:id="@+id/digipos"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Poster"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+
+            android:textColor="@color/black"
+            android:id="@+id/belanjasp"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Harga Vcr &amp; SP"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:id="@+id/belanjavcr"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/view_line_dotted"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/view_line_dotted"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/view_line_dotted"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:divider="?android:dividerHorizontal"
+        android:showDividers="middle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:divider="?android:dividerVertical"
+            android:showDividers="middle"
+            android:layout_marginTop="10dp">
+
+
+
+            <LinearLayout
+                android:id="@+id/absen99"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+
+
+                <ImageView
+                    android:id="@+id/sticker"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/noimage"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TAMPAK DEPAN"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="3dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/absen99"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/poster"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/noimage"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ETALASE"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="3dp"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

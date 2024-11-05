@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="top"
+                android:gravity="top"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:background="@color/merahtua">
+
+
+                    <LinearLayout
+                        android:id="@+id/atas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="25dp"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom">
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="top"
+                            android:gravity="top"
+                            >
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/imgbarang"
+                                android:layout_width="80dp"
+                                android:layout_height="77dp"
+                                android:src="@drawable/noimage"
+                                android:layout_gravity="bottom"
+                                app:civ_border_color="#DFBBC4"
+                                app:civ_border_width="2dp"
+                                android:paddingBottom="7dp"
+                                android:paddingTop="0dp"
+                                android:layout_marginLeft="1dp"
+                                />
+
+                            <ImageView
+                                android:id="@+id/imgbarang"
+                                android:layout_width="80dp"
+                                android:layout_height="65dp"
+                                android:src="@drawable/userabsen2"
+                                android:layout_gravity="bottom"
+                                android:paddingBottom="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:visibility="gone"
+                                />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="left"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="8dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Data Performance Penjualan"
+                                    android:textSize="15dp"
+                                    android:layout_gravity="left"
+                                    android:layout_marginLeft="1dp"
+                                    android:textColor="@color/white"/>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+
+                                    <TextView
+                                        android:id="@+id/namasales"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="SARYONO"
+                                        android:textStyle="bold"
+                                        android:textSize="16dp"
+                                        android:layout_gravity="left"
+                                        android:layout_marginLeft="1dp"
+                                        android:textColor="@color/white"/>
+
+
+
+                                </LinearLayout>
+
+
+
+                                <TextView
+                                    android:id="@+id/id_kar"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="1784320000"
+                                    android:textStyle="bold"
+                                    android:textSize="16dp"
+                                    android:layout_gravity="left"
+                                    android:layout_marginLeft="1dp"
+                                    android:textColor="@color/white"/>
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="bottom">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="CLUSTER DEPOK /TAP JUANDA / "
+                                android:textSize="13dp"
+                                android:layout_gravity="bottom"
+                                android:gravity="bottom"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="@color/white"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ABSENSI / "
+                                android:textSize="13dp"
+                                android:layout_gravity="bottom"
+                                android:gravity="bottom"
+                                android:layout_marginLeft="1dp"
+                                android:textColor="@color/white"/>
+
+
+
+                            <TextView
+                                android:id="@+id/tanggaldari"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2024/06/01"
+                                android:textSize="13dp"
+                                android:layout_gravity="bottom"
+                                android:gravity="bottom"
+                                android:layout_marginLeft="1dp"
+                                android:textColor="@color/white"
+                                android:visibility="gone"/>
+
+
+
+
+
+                            <TextView
+                                android:id="@+id/kategori"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="kategori"
+                                android:textSize="13dp"
+                                android:layout_gravity="bottom"
+                                android:gravity="bottom"
+                                android:layout_marginLeft="1dp"
+                                android:textColor="@color/white"
+                                android:visibility="gone"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:visibility="visible">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <LinearLayout
+                        android:id="@+id/klik_dari"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="6dp"
+                        android:background="@drawable/bulat_transparan_putih"
+                        >
+
+                        <ImageView
+
+                            android:layout_marginRight="1dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="4dp"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:background="@drawable/date2"/>
+
+                        <TextView
+                            android:id="@+id/tanggal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="2024/06/01"
+                            android:textSize="15dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="--"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <LinearLayout
+                        android:id="@+id/klik_sampai"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="6dp"
+                        android:background="@drawable/bulat_transparan_putih"
+
+                        >
+
+                        <ImageView
+
+                            android:layout_marginRight="1dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="4dp"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:background="@drawable/date2"/>
+
+                        <TextView
+                            android:id="@+id/tanggalsampai"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="2024/06/18"
+                            android:textSize="15dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    android:layout_marginLeft="9dp">
+
+                    <LinearLayout
+                        android:id="@+id/carisum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="6dp"
+                        android:background="@drawable/bulat_transparan_putih"
+
+                        >
+
+                        <ImageView
+
+                            android:layout_marginRight="1dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="4dp"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:background="@drawable/search"/>
+
+
+
+                    </LinearLayout>
+
+
+
+                </android.support.v7.widget.CardView>
+
+                <ImageView
+
+                    android:layout_marginRight="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Dashboard"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp"
+    android:textSize="19dp"/>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tengah"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:cardBackgroundColor="#FFFFFF">
+
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/namasales"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="LINE CHART PERFORMANCE"
+                                android:layout_marginLeft="15dp"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="3dp">
+
+
+
+                                <LinearLayout
+                                    android:id="@+id/perdana"
+                                    android:layout_width="55dp"
+                                    android:layout_height="30dp"
+                                    android:orientation="vertical"
+                                    android:padding="5dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:background="@drawable/kota_nav2y">
+
+
+
+
+
+                                    <TextView
+                                        android:id="@+id/t_perdana"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Perdana"
+                                        android:textColor="@color/white"
+                                        android:textSize="10dp"
+                                        android:textStyle="bold"
+                                        android:layout_marginTop="3dp"
+                                        android:layout_gravity="center"/>
+
+                                    <View
+                                        android:id="@+id/perdana_v"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="@color/white"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="20dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:visibility="gone"/>
+
+                                </LinearLayout>
+
+
+
+                                <LinearLayout
+                                    android:id="@+id/voucher"
+                                    android:layout_width="55dp"
+                                    android:layout_height="30dp"
+                                    android:orientation="vertical"
+                                    android:padding="5dp"
+                                    android:visibility="visible"
+                                    android:background="@drawable/kotak_transparan_putih2">
+
+
+
+                                    <TextView
+                                        android:id="@+id/t_voucher"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Voucher"
+                                        android:textColor="@color/navy"
+                                        android:layout_marginTop="3dp"
+                                        android:textSize="10dp"
+                                        android:textStyle="bold"
+                                        android:layout_gravity="center"/>
+
+                                    <View
+                                        android:id="@+id/voucher_v"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="@color/white"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="20dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:visibility="gone"/>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/bulan"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="-"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:textSize="17dp"
+                                    android:gravity="right"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_marginLeft="10dp"/>
+
+
+                            </LinearLayout>
+
+                            <!-- Bar Chart -->
+                            <com.github.mikephil.charting.charts.LineChart
+                                android:id="@+id/line_chart"
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </android.support.v7.widget.CardView>
+
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:cardBackgroundColor="#FFFFFF"
+                        android:visibility="gone">
+
+
+                        <LinearLayout
+                            android:id="@+id/dropdown_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/namasales"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="LINE CHART PERFORMANCE"
+                                android:layout_marginLeft="15dp"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="3dp">
+
+
+
+                                <LinearLayout
+                                    android:id="@+id/perdana"
+                                    android:layout_width="55dp"
+                                    android:layout_height="30dp"
+                                    android:orientation="vertical"
+                                    android:padding="5dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:background="@drawable/kota_nav2y">
+
+
+
+
+
+                                    <TextView
+                                        android:id="@+id/t_perdana"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Voucher"
+                                        android:textColor="@color/white"
+                                        android:textSize="10dp"
+                                        android:textStyle="bold"
+                                        android:layout_marginTop="3dp"
+                                        android:layout_gravity="center"/>
+
+                                    <View
+                                        android:id="@+id/perdana_v"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="@color/white"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="20dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:visibility="gone"/>
+
+                                </LinearLayout>
+
+
+
+                                <LinearLayout
+                                    android:id="@+id/voucher"
+                                    android:layout_width="55dp"
+                                    android:layout_height="30dp"
+                                    android:orientation="vertical"
+                                    android:padding="5dp"
+                                    android:visibility="gone"
+                                    android:background="@drawable/kotak_transparan_putih2">
+
+
+
+                                    <TextView
+                                        android:id="@+id/t_voucher"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Voucher"
+                                        android:textColor="@color/navy"
+                                        android:layout_marginTop="3dp"
+                                        android:textSize="10dp"
+                                        android:textStyle="bold"
+                                        android:layout_gravity="center"/>
+
+                                    <View
+                                        android:id="@+id/voucher_v"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="@color/white"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="20dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:visibility="gone"/>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/namasales"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="JUNI"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:textSize="17dp"
+                                    android:gravity="right"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"/>
+
+
+                            </LinearLayout>
+
+                            <!-- Bar Chart -->
+                            <com.github.mikephil.charting.charts.LineChart
+                                android:id="@+id/line_chart2"
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginLeft="15dp"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+                        <ListView
+                            android:id="@+id/listtest"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+
+
+
+
+
+
+
+
+                            <ListView
+                                android:id="@+id/listtest2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

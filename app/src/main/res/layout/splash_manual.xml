@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login"
+    android:background="@color/merahmudah2"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:id="@+id/splash"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/navy_bottom_round"
+            >
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                        <ImageView
+
+                            android:layout_marginTop="70dp"
+                            android:layout_gravity="center"
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/logojarvisv2"/>
+
+                        <ImageView
+                            android:layout_marginTop="0dp"
+                            android:layout_gravity="bottom"
+                            android:layout_width="60dp"
+                            android:layout_marginLeft="28dp"
+                            android:layout_height="32dp"
+                            android:background="@drawable/tandapetik"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/merahmudah2"
+                                    android:text="Semangat Pagee Pagee Pagee"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="35dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/merahmudah2"
+                                    android:text="Selamat Datang"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="35dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/merahmudah2"
+                                    android:text="Di Aplikasi "/>
+
+                                <TextView
+                                    android:id="@+id/informasi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="35dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/merahmudah2"
+                                    android:text="JARVIS "/>
+
+                                <ImageView
+
+                                    android:layout_marginTop="0dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_gravity="right"
+                                    android:layout_width="60dp"
+                                    android:layout_marginLeft="28dp"
+                                    android:layout_height="32dp"
+                                    android:background="@drawable/tandapetikkebalik"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="79dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="1dp">
+
+
+
+                                <LinearLayout
+                                    android:id="@+id/swipe"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="right">
+                                        <ImageView
+                                            android:layout_marginRight="10dp"
+                                            android:layout_gravity="right"
+                                            android:layout_marginLeft="50dp"
+                                            android:layout_width="50dp"
+                                            android:layout_height="30dp"
+                                            android:background="@drawable/forward"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Swipe"
+                                            android:textStyle="italic"
+                                            android:textSize="13dp"
+                                            android:layout_marginRight="18dp"
+                                            android:layout_gravity="right"
+                                            android:textColor="@color/white"/>
+
+                                </LinearLayout>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                                <View
+                                    android:layout_width="wrap_content"
+                                    android:padding="5dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_height="1dp"
+                                    android:background="@color/white"
+                                    android:layout_marginBottom="5dp"/>
+
+
+
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:orientation="horizontal"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_gravity="left"
+                                    android:gravity="left">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_gravity="left"
+                                            android:gravity="center">
+
+                                                <LinearLayout
+                                                    android:layout_marginTop="0dp"
+                                                    android:layout_width="100dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:orientation="vertical"
+                                                    android:gravity="center"
+                                                    android:background="@drawable/abuabu2"
+                                                    android:padding="5dp"
+                                                    >
+
+
+                                                        <TextView
+                                                            android:id="@+id/jam"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:text="01:01 AM"
+                                                            android:textSize="19dp"
+                                                            android:textStyle="bold"
+                                                            android:textColor="@color/white"
+                                                            android:layout_gravity="center"/>
+
+
+                                                </LinearLayout>
+
+
+                                        </LinearLayout>
+
+                                        <TextView
+                                            android:id="@+id/hari"
+                                            android:layout_marginLeft="13dp"
+                                            android:layout_width="80dp"
+                                            android:layout_height="wrap_content"
+                                            android:text="Jum'at,"
+                                            android:textSize="15dp"
+                                            android:textStyle="bold"
+                                            android:gravity="right"
+                                            android:layout_marginRight="1dp"
+                                            android:textColor="@color/white"
+                                            android:layout_gravity="center"/>
+
+                                        <TextView
+                                            android:id="@+id/tanggal"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="21 July 2023"
+                                            android:textSize="15dp"
+                                            android:textStyle="bold"
+                                            android:gravity="left"
+                                            android:layout_marginRight="10dp"
+                                            android:textColor="@color/merahmudah2"
+                                            android:layout_gravity="center"/>
+
+
+                                </LinearLayout>
+
+
+
+                                <View
+                                    android:layout_marginTop="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:padding="5dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="18dp"
+                                    android:layout_height="1dp"
+                                    android:background="@color/white"/>
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="19dp"
+                            android:visibility="gone">
+
+
+
+                                <LinearLayout
+                                    android:id="@+id/swipe"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="right">
+                                        <ImageView
+                                            android:layout_marginRight="10dp"
+                                            android:layout_gravity="right"
+                                            android:layout_marginLeft="50dp"
+                                            android:layout_width="50dp"
+                                            android:layout_height="30dp"
+                                            android:background="@drawable/forward"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Swipe"
+                                            android:textStyle="italic"
+                                            android:textSize="13dp"
+                                            android:layout_marginRight="18dp"
+                                            android:layout_gravity="right"
+                                            android:textColor="@color/white"/>
+
+                                </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:layout_marginTop="0dp"
+            android:visibility="gone">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+
+                        <ImageView
+
+                            android:layout_marginRight="1dp"
+                            android:layout_gravity="bottom"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:background="@drawable/browser"/>
+
+                        <ImageView
+                            android:layout_marginRight="1dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="1dp"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:background="@drawable/ig"/>
+                        <ImageView
+                            android:layout_marginRight="1dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="1dp"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:background="@drawable/fb"/>
+                        <ImageView
+                            android:layout_marginRight="1dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="1dp"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:background="@drawable/yt"/>
+
+
+                        <TextView
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@rekamitrayasa"
+                            android:textSize="12dp"
+                            android:textStyle="bold"
+                            android:gravity="right"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginRight="1dp"
+                            android:textColor="@color/white"/>
+
+
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+

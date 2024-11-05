@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login"
+    android:background="@color/merahmudah2"
+    >
+
+    <LinearLayout
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/navy_bottom_round"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:background="@drawable/logojarvisv2"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/idoutlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/namaoutlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="namaoutlet"/>
+
+
+        >
+
+
+
+        <LinearLayout
+            android:layout_marginTop="59dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="@color/merahmudah2"
+
+            >
+
+
+            <TextView
+                android:id="@+id/namasales"
+                android:text="null"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/merah"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/update"
+                android:text="null"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/merah"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textSize="13dp"
+                android:focusable="true"
+                android:layout_margin="10dp"
+                android:padding="8dp"
+                android:hint="EMAIL"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:background="@drawable/background"/>
+
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:textSize="13dp"
+                android:layout_margin="10dp"
+                android:hint="PASSWORD"
+                android:padding="8dp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:background="@drawable/background"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lupa Password Silahkan Hub Admin"
+                android:textColor="@color/white"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/Button"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/navy_round"
+                >
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LOGIN"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Versi 6.5"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <ImageView
+
+                android:layout_marginRight="1dp"
+                android:layout_gravity="bottom"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/browser"/>
+
+            <ImageView
+                android:layout_marginRight="1dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="1dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/ig"/>
+
+            <ImageView
+                android:layout_marginRight="1dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="1dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/fb"/>
+
+            <ImageView
+                android:layout_marginRight="1dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="1dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/yt"/>
+
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@rekamitrayasa"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="1dp"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+

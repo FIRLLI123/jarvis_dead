@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040269501945",
+    "project_id": "jarvis-firlli",
+    "storage_bucket": "jarvis-firlli.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040269501945:android:c3936d2946a399c1c90928",
+        "android_client_info": {
+          "package_name": "com.example.barcode"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfW_-bGlsmUIwl_IGioBgZpLDWlzl8ggg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

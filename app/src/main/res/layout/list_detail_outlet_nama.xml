@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="2dp"
+    android:background="@color/merah"
+    >
+
+
+
+        <TextView
+            android:id="@+id/satulist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="idoutlet"
+            android:textColor="@color/white"
+            android:layout_marginLeft="2dp"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/dualist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="idoutlet"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="@color/abumuda">
+
+            <TextView
+                android:id="@+id/tanggallisttest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:gravity="left"
+                android:visibility="gone"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="Target Transaksi "
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="7dp"
+                        android:gravity="left"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="left"/>
+
+
+                    <TextView
+                        android:id="@+id/sembilanlist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="left"/>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:src="@drawable/gps2"
+                        android:layout_gravity="bottom"
+                        android:paddingBottom="3dp"
+                        android:layout_marginTop="3dp"
+                        android:padding="4dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/limalist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" KECAMATAN SUKMAJAYA"
+                        android:textSize="11dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:gravity="center" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Actual Transaksi"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+
+                <TextView
+                    android:id="@+id/sepuluhlist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Achive To Target (Transaksi) "
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic"
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/sebelaslist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="77"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic"/>
+
+                <TextView
+                    android:id="@+id/tigalist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bulan"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic"
+                    android:visibility="gone"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="1dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:visibility="gone"
+                    android:textStyle="bold|italic"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="%MoM"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+
+                <TextView
+                    android:id="@+id/duabelaslist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Target Revenue"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+
+                <TextView
+                    android:id="@+id/tigabelaslist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Actual Revenue"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+
+                <TextView
+                    android:id="@+id/empatbelaslist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Achive To Target (Revenue) "
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic"
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/limabelaslist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="77"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/tigalist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bulan"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic"
+                    android:visibility="gone"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="1dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:visibility="gone"
+                    android:textStyle="bold|italic"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+
+
+            />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

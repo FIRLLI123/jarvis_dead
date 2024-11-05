@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/namasaleslisttest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Andre"
+                android:textColor="@color/black"
+                android:layout_marginLeft="1dp"
+                android:gravity="left"
+                android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tanggallisttest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:gravity="left"
+                android:visibility="gone"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Target Belanja Pinter :"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+
+            <TextView
+                android:id="@+id/sembilanlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:gravity="left"/>
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Aktual Belanja Pinter"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"/>
+
+
+            <TextView
+                android:id="@+id/sepuluhlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:gravity="left"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Achive To Target "
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic"
+                    />
+
+
+
+
+            <TextView
+                android:id="@+id/sebelaslist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="77"
+                android:maxLength="5"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:textStyle="bold|italic"/>
+
+                <TextView
+                    android:id="@+id/tigalist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bulan"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic"
+                    android:visibility="gone"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="1dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:textStyle="bold|italic"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=">"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:gravity="right"
+                android:textSize="25dp"
+                android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

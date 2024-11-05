@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/idpenjualanlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:textColor="@color/black"
+            android:layout_marginLeft="3dp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:background="@drawable/custom12"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/titik"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="BABA CELL"
+                    android:textStyle="bold"
+                    android:textColor="@color/navy"
+                    android:id="@+id/namaoutlettugas"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="-"
+                    android:textStyle="bold"
+                    android:textColor="@color/navy"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="240000123"
+                    android:textStyle="bold"
+                    android:textColor="@color/navy"
+                    android:id="@+id/idoutlettugas"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STATUS"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="1dp"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="|"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="1dp"
+                    android:gravity="right" />
+
+            <TextView
+                android:id="@+id/hasiltugas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BELUM_SELESAI"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:gravity="left"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:gravity="right">
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/statusimg"
+                        android:layout_gravity="right"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ceklish"/>
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/statusimg2"
+                        android:layout_gravity="right"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/silang"/>
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

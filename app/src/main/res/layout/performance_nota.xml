@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TesCoding"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@color/merah">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/back"
+                    android:layout_marginBottom="2dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOTA"
+                android:layout_marginRight="44dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center|center_horizontal"
+                android:gravity="center"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="#FFFFFF">
+
+                <LinearLayout
+                    android:id="@+id/klik_dari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp"
+                    android:background="@drawable/bulat_transparan_putih"
+                    >
+
+                    <ImageView
+
+                        android:layout_marginRight="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/date2"/>
+
+                    <TextView
+                        android:id="@+id/tanggal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="2023/12/10"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="#FFFFFF">
+
+                <LinearLayout
+                    android:id="@+id/klik_sampai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp"
+                    android:background="@drawable/bulat_transparan_putih"
+
+                    >
+
+                    <ImageView
+
+                        android:layout_marginRight="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/date2"/>
+
+                    <TextView
+                        android:id="@+id/tanggalsampai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="2023/12/10"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="#FFFFFF"
+                android:layout_marginLeft="9dp">
+
+                <LinearLayout
+                    android:id="@+id/carisum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp"
+                    android:background="@drawable/bulat_transparan_putih"
+
+                    >
+
+                    <ImageView
+
+                        android:layout_marginRight="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:background="@drawable/search"/>
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:id="@+id/klik_dari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp"
+                android:background="@drawable/bulat_transparan_putih"
+                >
+
+                <ImageView
+
+                    android:layout_marginRight="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/date2"
+                    android:visibility="gone"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="MoM :"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/bulan_min_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"/>
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="&amp;"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/bulan_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="#FFFFFF">
+
+                <LinearLayout
+                    android:id="@+id/klik_dari_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp"
+                    android:background="@drawable/bulat_transparan_putih"
+                    >
+
+                    <ImageView
+
+                        android:layout_marginRight="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/date2"/>
+
+                    <TextView
+                        android:id="@+id/tanggal_min_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="2023/12/10"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="#FFFFFF">
+
+                <LinearLayout
+                    android:id="@+id/klik_sampai_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp"
+                    android:background="@drawable/bulat_transparan_putih"
+
+                    >
+
+                    <ImageView
+
+                        android:layout_marginRight="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/date2"/>
+
+                    <TextView
+                        android:id="@+id/tanggalsampai_min_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="2023/12/10"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="#FFFFFF"
+                android:layout_marginLeft="9dp">
+
+                <LinearLayout
+                    android:id="@+id/carisum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="6dp"
+                    android:background="@drawable/bulat_transparan_putih"
+
+                    >
+
+                    <ImageView
+
+                        android:layout_marginRight="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:background="@drawable/search"/>
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="RANK SALES"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+
+
+
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/detaildata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klik berdasarkan Jam..."
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="2dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/detaildata_voucher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klik berdasarkan Jam..."
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="2dp"
+        android:visibility="gone"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+
+
+        <LinearLayout
+            android:id="@+id/perdana"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@drawable/kota_nav2y">
+
+
+
+
+
+            <TextView
+                android:id="@+id/t_perdana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perdana"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"/>
+
+            <View
+                android:id="@+id/perdana_v"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/voucher"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@drawable/kotak_transparan_putih2">
+
+
+
+            <TextView
+                android:id="@+id/t_voucher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voucher"
+                android:textColor="@color/navy"
+                android:layout_marginTop="3dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <View
+                android:id="@+id/voucher_v"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone">
+
+
+
+        <LinearLayout
+            android:id="@+id/sales"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@drawable/kota_nav2y">
+
+
+
+
+
+            <TextView
+                android:id="@+id/t_sales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SALES"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"/>
+
+            <View
+                android:id="@+id/perdana_v"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/ds"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@drawable/kotak_transparan_putih2">
+
+
+
+            <TextView
+                android:id="@+id/t_ds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DS"
+                android:textColor="@color/navy"
+                android:layout_marginTop="3dp"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <View
+                android:id="@+id/voucher_v"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Sales :"
+            android:textSize="15dp"/>
+
+
+
+        <EditText
+
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/namasaleslist"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:focusable="false"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Detail"
+            android:id="@+id/cekdetail"/>
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/merah"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="gone"
+
+        />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:visibility="visible">
+
+
+        <ListView
+            android:id="@+id/listtest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"/>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:visibility="visible">
+
+
+        <ListView
+            android:id="@+id/listtest2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"/>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+</LinearLayout>

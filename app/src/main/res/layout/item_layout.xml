@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:background="@color/merahmudah2">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:text="240000123"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/idoutletlistsum2"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/merahmudah2"
+        android:padding="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="1dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tiga_d"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="3 HARI"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:id="@+id/lima_d"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="5 HARI"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:id="@+id/tuju_d"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="7 HARI"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:visibility="gone"/>
+
+
+
+        <TextView
+            android:id="@+id/tigapuluh_d"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="30 HARI"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/codelistsumstok2"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:text="v2.5gb7D"
+                android:textColor="@color/white"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:visibility="gone"/>
+
+
+
+            <TextView
+                android:id="@+id/namaitemlistsumstok2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Perdana 35 GB"
+                android:textColor="@color/white"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"/>
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/qtylistsumstok2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="@color/white"
+                android:textStyle="bold |italic"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:layout_marginBottom="0dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4dp"
+            android:visibility="gone"
+            >
+
+            <TextView
+
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:text="TOTAL"
+                android:textStyle="bold|italic"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textStyle="bold|italic"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/totallistsum2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="90000000"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

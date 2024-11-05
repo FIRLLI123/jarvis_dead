@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="bottom"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="top"
+                android:gravity="top"
+                >
+
+                <TextView
+                    android:id="@+id/tanggallist"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="1dp"
+                    android:text="24\nAGUSTUS\n2024"
+                    android:gravity="center|top"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="left">
+                    <TextView
+                        android:id="@+id/itemlist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Perdana by.U 7gb"
+                        android:textSize="15dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp">
+
+
+                        <TextView
+                            android:id="@+id/qtylist"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15"
+
+                            android:textSize="15dp"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="1dp"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="pcs"
+
+                            android:textSize="15dp"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="1dp"
+                            android:textColor="@color/black"
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:layout_marginRight="10dp"
+
+                            android:textSize="17dp"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/hargalist"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.15.000"
+                            android:textSize="17dp"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+
+
+                    <TextView
+                        android:id="@+id/totallist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rp.150.000"
+                        android:textStyle="bold|italic"
+                        android:textSize="19dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/merah"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

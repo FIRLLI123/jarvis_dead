@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TesCoding"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/navy_bottom_round"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="top"
+                android:gravity="top"
+                >
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="17dp"
+                android:layout_gravity="center"
+                android:gravity="top">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Filter By Harga Item"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Tanggal :"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:visibility="gone"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Tanggal :"
+            android:textSize="15dp"
+            android:textColor="@color/navy"/>
+
+        <LinearLayout
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:background="@drawable/bulat_transparan_navy"
+            android:layout_marginBottom="2dp"
+
+            >
+
+            <ImageView
+
+                android:layout_marginRight="1dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="4dp"
+                android:layout_width="15dp"
+                android:layout_height="16dp"
+                android:background="@drawable/datev2"/>
+
+            <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="2023/01/01"
+                android:textSize="13dp"
+                android:layout_marginBottom="1dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/navy"/>
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:padding="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:id="@+id/carisumitem"
+            android:textSize="12dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/searchv4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Cari"
+            android:textSize="13dp"
+            android:layout_marginBottom="1dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/navy"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/navy"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIRLLI"
+            android:textColor="@color/navy"
+            android:id="@+id/namasales"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+
+
+        <LinearLayout
+            android:id="@+id/perdana"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@drawable/kota_navy">
+
+
+
+
+
+            <TextView
+                android:id="@+id/t_perdana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perdana"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_gravity="center"/>
+
+            <View
+                android:id="@+id/perdana_v"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/voucher"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@drawable/kotak_transparan_merah">
+
+
+
+            <TextView
+                android:id="@+id/t_voucher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voucher"
+                android:textColor="@color/navy"
+                android:layout_marginTop="3dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="3dp"
+                android:layout_gravity="center"/>
+
+            <View
+                android:id="@+id/voucher_v"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Sales :"
+            android:textSize="15dp"/>
+
+
+
+        <EditText
+
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/namasaleslist"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:focusable="false"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Detail"
+            android:id="@+id/cekdetail"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/punya_perdana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+
+            <ListView
+                android:id="@+id/listtest"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total:"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/ttl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ttl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dddd"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="TRANSFER"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="15dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tfperdana"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tfperdana12"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="CASH"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="15dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/cashperdana"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/cashperdana12"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="TOTAL"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/totalperdana"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ddddddd"
+                android:id="@+id/totalperdana12"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:visibility="visible"/>
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/cetak"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="CETAK PERDANA"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/custom2_navy"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/punya_voucher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+
+            <ListView
+                android:id="@+id/listtest_voucher"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total:"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/ttl_voucher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ttl2_voucher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="TRANSFER"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="15dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tfperdana_voucher"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tfperdana12_voucher"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="CASH"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="15dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/cashperdana_voucher"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/cashperdana12_voucher"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="TOTAL"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/totalperdana_voucher"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/totalperdana12_voucher"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:visibility="visible"/>
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/cetak_voucher"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="CETAK VOUCHER"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/custom2_navy"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
